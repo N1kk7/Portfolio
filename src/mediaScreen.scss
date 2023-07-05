@@ -1,0 +1,195 @@
+@media screen and (max-width: 768px) {
+    .blockWrapper{
+        width: 100%;
+        .infoBlock{
+            width: 50vw;
+            .infoBlockWrapper{
+                .border{
+                    width: 45cqw;
+                }
+            }
+        }
+        .images{
+            width: 50cqw;
+            .bgImg{
+                img{
+                    width: 50cqw;
+                }
+            }  
+        }
+    }
+    .StarWars{
+        .blockWrapper{
+            .bgImg{
+                width: 50vw;
+            }
+        }
+    }
+    .MovieApp{
+        .blockWrapper{
+            .infoBlock{
+                .infoBlockWrapper{
+                    .border{
+                        width: 40cqw;
+
+                    }
+                }
+            }
+        }
+
+    }
+    .WindowBar{
+        right: -7cqw;
+    }
+}
+@media screen and (max-width: 425px) {
+    .blockWrapper{
+        flex-direction: column-reverse;
+        .images{
+            height: 40vh;
+            width: 100vw;
+            .swiper{
+                height: 30vh;
+                width: 80vw;
+                .swiper-slide{
+                    height: 35vh;
+                    img{
+                        width: 80cqw;
+                    }
+                }
+            }
+            .bgImg{
+                img{
+                    width: 100cqw;
+                }
+            }
+        }
+        
+        .infoBlock{
+            height: 50vh;
+            .infoBlockWrapper{
+                vertical-align: unset;
+                padding-top: 6vh;
+                height: 50vh;
+                top: 0;
+                .tittleBlock{
+                    h1{
+                        font-size: 9cqw;
+                    }
+                }
+                .border{
+                    width: 95vw;
+                }
+                .descriptionBlock{
+                    p{
+                        font-size: 3cqw;
+                    }
+                }
+                .buttons{
+                    position: relative;
+                    justify-content: center;
+                    top: 9vh !important;
+                    .btn{
+                        min-width: 22cqw;
+                        height: 6cqh;
+                        font-size: 3cqw;
+                    }
+                }
+            }
+        }
+    }
+    .Expedia{
+        .blockWrapper{
+            height: calc(100vh - 120px);
+
+
+        }
+    }
+    .StarWars{
+        min-height: unset;
+        max-height: 90vh !important;
+        .blockWrapper{
+            flex-direction: column;
+            .bgImg{
+                width: 100vw;
+                img{
+                    width: 100vw;
+                    height: 40vh;
+                }
+            }
+            .images{
+                height: 40vh;
+                .swiper{
+                    width: 55cqw;
+                    height: 35cqh;
+                    // margin-top: 0px;
+                    .swiper-wrapper{
+                        bottom: 0;
+                        .swiper-slide{  
+                            container-type: size;
+
+                            .imageWrapper{
+                                width: 50cqw;
+                                height: 35vh;
+                                .image{
+                                    // width: 55%;
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+            }
+            .infoBlock{
+                height: 60vh;
+                .infoBlockWrapper{
+                    padding-top: 10vh;
+                }
+            }
+        }
+    }
+    .WeatherApp{
+        
+        .images{
+            overflow: auto;
+            height: 45vh;
+            .grid-container{
+                min-width: 90cqw;
+                margin: 0 auto !important;
+                top: 3vh;
+                .grid-item{
+                    .tittleBlock{
+                        padding: 2px;
+                        .cityName{
+                            font-size: 3cqw;
+                        }
+                    }
+                }
+            }
+            .bgImg{
+                img{
+                    width: 100cqw;
+                    height: 80cqh;
+                }
+            }
+        }
+
+    }
+    .MovieApp{
+        min-height: unset;
+        max-height: 90vh;
+        .blockWrapper{
+            flex-direction: column;
+
+        }
+    }
+    .Cocktail{
+        min-height: unset;
+        max-height: 90vh;
+        .infoBlock{
+            height: 55vh;
+        }
+
+    }
+
+}
