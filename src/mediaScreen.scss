@@ -52,7 +52,7 @@
                 height: 30vh;
                 width: 80vw;
                 .swiper-slide{
-                    height: 35vh;
+                    height: 32vh;
                     img{
                         width: 80cqw;
                     }
@@ -90,9 +90,9 @@
                     justify-content: center;
                     top: 9vh !important;
                     .btn{
-                        min-width: 22cqw;
+                        font-size: 2.5cqw;
                         height: 6cqh;
-                        font-size: 3cqw;
+                        padding: 0 3cqw;
                     }
                 }
             }
@@ -103,6 +103,27 @@
             height: calc(100vh - 120px);
 
 
+        }
+    }
+    .header{
+        .container{
+            .headerWrapper{
+                .headerItem{
+                    .headerLogo{
+                        width: 45cqw;
+                        h1{
+                            font-size: 12cqw;
+                        }
+                        .lineMiddle{
+                            width: 35cqw;
+                        }
+                        .lineSmall{
+                            width: 20cqw;
+                        }
+
+                    }
+                }
+            }
         }
     }
     .StarWars{
