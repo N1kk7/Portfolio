@@ -184,7 +184,7 @@ useEffect(() => {
 
                 </div>
                 <Swiper
-                    // autoplay={{ delay: 5000 }}
+                    autoplay={{ delay: 5000 }}
                     effect={"cube"}
                     grabCursor={true}
                     cubeEffect={{

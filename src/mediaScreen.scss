@@ -168,7 +168,7 @@
                     width: 55cqw;
                     // height: 15cqh;
                     // display: contents;
-                    top: 15vh;
+                    top: 1vh;
                     margin-top: unset;
                     // bottom: 10vh;
                     .swiper-slide{
@@ -179,6 +179,9 @@
                         }
                     }
                 }
+                .imgBottom{
+                    bottom: 0;
+                }
             }
             .infoBlock{
                 height: 60vh;
@@ -186,7 +189,7 @@
                     padding-top: 10vh;
                 }
                 .border{
-                    width: 90vw;
+                    width: 90vw !important;
                 }
             }
         }
