@@ -41,7 +41,7 @@ export default function WeatherApp() {
             </div>
             <div className="images">
                 <div className="bgImg">
-                    <img src="build/goldBg.jpg" alt="" />
+                    <img src="./goldBg.jpg" alt="" />
                 </div>
                 <div className="grid-container">
                     <div
@@ -57,7 +57,7 @@ export default function WeatherApp() {
             
 
                         {/* {/* {!props.style && <img className='cartImg' src={e.dImg} alt="" />} */}
-                        {<img className='cartImg' src="build/n-kharkiv.jpeg" alt="" />}
+                        {<img className='cartImg' src="./n-kharkiv.jpeg" alt="" />}
                     </div>
                     <div
                         className="grid-item flex flex-col rounded-xl border-gray-300 hover:ring-brand ring-2 ring-gray-300 hover:border-gray-500 overflow-hidden shadow-xl max-wv-9 min-hv-1 max-hv-9 border-1">
@@ -72,7 +72,7 @@ export default function WeatherApp() {
             
 
                         {/* {/* {!props.style && <img className='cartImg' src={e.dImg} alt="" />} */}
-                        {<img className='cartImg' src="build/n-Odessa.jpeg" alt="" />}
+                        {<img className='cartImg' src="./n-Odessa.jpeg" alt="" />}
                     </div>
                     <div
                         className="grid-item flex flex-col rounded-xl border-gray-300 hover:ring-brand ring-2 ring-gray-300 hover:border-gray-500 overflow-hidden shadow-xl max-wv-9 min-hv-1 max-hv-9 border-1">
@@ -87,7 +87,7 @@ export default function WeatherApp() {
             
 
                         {/* {/* {!props.style && <img className='cartImg' src={e.dImg} alt="" />} */}
-                        {<img className='cartImg' src="build/n-dnipro.jpeg" alt="" />}
+                        {<img className='cartImg' src="./n-dnipro.jpeg" alt="" />}
                     </div>
                     <div
                         className="grid-item flex flex-col rounded-xl border-gray-300 hover:ring-brand ring-2 ring-gray-300 hover:border-gray-500 overflow-hidden shadow-xl max-wv-9 min-hv-1 max-hv-9 border-1">
@@ -102,7 +102,7 @@ export default function WeatherApp() {
             
 
                         {/* {/* {!props.style && <img className='cartImg' src={e.dImg} alt="" />} */}
-                        {<img className='cartImg right-8' src="build/n-chernihiv.jpeg" alt="" />}
+                        {<img className='cartImg right-8' src="./n-chernihiv.jpeg" alt="" />}
                     </div>
                     <div
                         className="grid-item flex flex-col rounded-xl border-gray-300 hover:ring-brand ring-2 ring-gray-300 hover:border-gray-500 overflow-hidden shadow-xl max-wv-9 min-hv-1 max-hv-9 border-1">
@@ -117,7 +117,7 @@ export default function WeatherApp() {
             
 
                         {/* {/* {!props.style && <img className='cartImg' src={e.dImg} alt="" />} */}
-                        {<img className='cartImg right-8 bottom-8' src="build/n-Zhytomyr.jpeg" alt="" />}
+                        {<img className='cartImg right-8 bottom-8' src="./n-Zhytomyr.jpeg" alt="" />}
                     </div>
                     <div
                         className="grid-item flex flex-col rounded-xl border-gray-300 hover:ring-brand ring-2 ring-gray-300 hover:border-gray-500 overflow-hidden shadow-xl max-wv-9 min-hv-1 max-hv-9 border-1">
@@ -132,7 +132,7 @@ export default function WeatherApp() {
             
 
                         {/* {/* {!props.style && <img className='cartImg' src={e.dImg} alt="" />} */}
-                        {<img className='cartImg right-12' src="build/n-Poltava.jpeg" alt="" />}
+                        {<img className='cartImg right-12' src="./n-Poltava.jpeg" alt="" />}
                     </div>
                     <div
                         className="grid-item flex flex-col rounded-xl border-gray-300 hover:ring-brand ring-2 ring-gray-300 hover:border-gray-500 overflow-hidden shadow-xl max-wv-9 min-hv-1 max-hv-9 border-1">
@@ -147,7 +147,7 @@ export default function WeatherApp() {
             
 
                         {/* {/* {!props.style && <img className='cartImg' src={e.dImg} alt="" />} */}
-                        {<img className='cartImg ' src="build/n-Kherson.jpeg" alt="" />}
+                        {<img className='cartImg ' src="./n-Kherson.jpeg" alt="" />}
                     </div>
                     <div
                         className="grid-item flex flex-col rounded-xl border-gray-300 hover:ring-brand ring-2 ring-gray-300 hover:border-gray-500 overflow-hidden shadow-xl max-wv-9 min-hv-1 max-hv-9 border-1">
@@ -162,7 +162,7 @@ export default function WeatherApp() {
             
 
                         {/* {/* {!props.style && <img className='cartImg' src={e.dImg} alt="" />} */}
-                        {<img className='cartImg smallImg' src="build/n-Kyiv.jpeg" alt="" />}
+                        {<img className='cartImg smallImg' src="./n-Kyiv.jpeg" alt="" />}
                     </div>
                     <div
                         className="grid-item flex flex-col rounded-xl border-gray-300 hover:ring-brand ring-2 ring-gray-300 hover:border-gray-500 overflow-hidden shadow-xl max-wv-9 min-hv-1 max-hv-9 border-1">
@@ -177,7 +177,7 @@ export default function WeatherApp() {
             
 
                         {/* {/* {!props.style && <img className='cartImg' src={e.dImg} alt="" />} */}
-                        {<img className='cartImg' src="build/n-Zaporizhia.jpeg" alt="" />}
+                        {<img className='cartImg' src="./n-Zaporizhia.jpeg" alt="" />}
                     </div>
                 </div>
             </div>

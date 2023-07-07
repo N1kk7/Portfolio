@@ -51,7 +51,7 @@ export default function Cocktail() {
             </div>
             <div className="images">
             <div className="bgImg">
-                    <img src="build/goldBg.jpg" alt="" />
+                    <img src="./goldBg.jpg" alt="" />
                 </div>
                 <Swiper
                     autoplay={{ delay: 5000 }}
@@ -65,22 +65,22 @@ export default function Cocktail() {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <img src="build/cocktail1.png" alt="" />
+                        <img src="./cocktail1.png" alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="build/cocktail2.png" alt=""/>
+                        <img src="./cocktail2.png" alt=""/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="build/cocktail6.png" alt="" />
+                        <img src="./cocktail6.png" alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="build/cocktail4.png" alt="" />
+                        <img src="./cocktail4.png" alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="build/cocktail5.png" alt="" />
+                        <img src="./cocktail5.png" alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="build/cocktail3.png" alt="" />
+                        <img src="./cocktail3.png" alt="" />
                     </SwiperSlide>
                 </Swiper>
             </div>

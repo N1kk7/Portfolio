@@ -174,13 +174,13 @@ useEffect(() => {
     <div className="StarWars" id="StarWars">
         <div className="blockWrapper" >
             <div className="bgImg">
-                <img src="build/revertGoldBg.png" alt="" />
+                <img src="./revertGoldBg.png" alt="" />
             </div>
             <div className="images" >
                 
                 <canvas ref={canvasRef} className="canvasRain"></canvas>
                 <div className="light">
-                    <img src="build/light.png" alt="" />
+                    <img src="./light.png" alt="" />
 
                 </div>
                 <Swiper
@@ -200,21 +200,21 @@ useEffect(() => {
                     <SwiperSlide>
                         <div className="imageWrapper">
                             <div className="left-image">
-                                <img className="image imgBottom" src="build/films1.png" alt="" />
+                                <img className="image imgBottom" src="./films1.png" alt="" />
                             </div>
                             <div className="right-image">
-                                <img className="image imgBottom" src="build/films1.png" alt="" />
+                                <img className="image imgBottom" src="./films1.png" alt="" />
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="imageWrapper imageDown">
                             <div className="left-image">
-                                <img className="image"  src="build/vehicles1.png" alt=""/>
+                                <img className="image"  src="./vehicles1.png" alt=""/>
 
                             </div>
                             <div className="right-image">
-                                <img className="image"  src="build/vehicles1.png" alt=""/>
+                                <img className="image"  src="./vehicles1.png" alt=""/>
                                 
                             </div>
                         </div>
@@ -222,11 +222,11 @@ useEffect(() => {
                     <SwiperSlide>
                         <div className="imageWrapper imageDown">
                             <div className="left-image">
-                                <img className="image"  src="build/people1.png" alt="" />
+                                <img className="image"  src="./people1.png" alt="" />
 
                             </div>
                             <div className="right-image">
-                                <img className="image"  src="build/people1.png" alt="" />
+                                <img className="image"  src="./people1.png" alt="" />
                                 
                             </div>
                         </div>
@@ -234,11 +234,11 @@ useEffect(() => {
                     <SwiperSlide>
                         <div className="imageWrapper">
                             <div className="left-image">
-                                <img className="image imgBottom"  src="build/films2.png" alt="" />
+                                <img className="image imgBottom"  src="./films2.png" alt="" />
 
                             </div>
                             <div className="right-image">
-                                <img className="image imgBottom"  src="build/films2.png" alt="" />
+                                <img className="image imgBottom"  src="./films2.png" alt="" />
                                 
                             </div>
                         </div>
@@ -246,11 +246,11 @@ useEffect(() => {
                     <SwiperSlide>
                         <div className="imageWrapper imageDown">
                             <div className="left-image">
-                                <img className="image"  src="build/vehicles2.png" alt="" />
+                                <img className="image"  src="./vehicles2.png" alt="" />
 
                             </div>
                             <div className="right-image">
-                                <img className="image"  src="build/vehicles2.png" alt="" />
+                                <img className="image"  src="./vehicles2.png" alt="" />
                                 
                             </div>
                         </div>
@@ -258,11 +258,11 @@ useEffect(() => {
                     <SwiperSlide>
                         <div className="imageWrapper imageDown">
                             <div className="left-image">
-                                <img className="image"  src="build/people2.png" alt="" />
+                                <img className="image"  src="./people2.png" alt="" />
 
                             </div>
                             <div className="right-image">
-                                <img className="image"  src="build/people2.png" alt="" />
+                                <img className="image"  src="./people2.png" alt="" />
                                 
                             </div>
                         </div>
