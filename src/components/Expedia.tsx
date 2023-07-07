@@ -53,6 +53,7 @@ export default function Expedia() {
             <div className="images">
                 <div className="bgImg">
                     <img src="./goldBg.jpg" alt="" />
+
                 </div>
                 <Swiper
                     autoplay={{ delay: 5000 }}
