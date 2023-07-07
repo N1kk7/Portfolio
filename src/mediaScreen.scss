@@ -23,6 +23,7 @@
             .bgImg{
                 width: 50vw;
             }
+            
         }
     }
     .MovieApp{
@@ -52,7 +53,7 @@
                 height: 30vh;
                 width: 80vw;
                 .swiper-slide{
-                    height: 32vh;
+                    height: 40vh;
                     img{
                         width: 80cqw;
                     }
@@ -67,9 +68,10 @@
         
         .infoBlock{
             height: 50vh;
+            padding: unset;
             .infoBlockWrapper{
                 vertical-align: unset;
-                padding-top: 6vh;
+                padding: 6vh 5vw 55px 5vw;
                 height: 50vh;
                 top: 0;
                 .tittleBlock{
@@ -78,7 +80,7 @@
                     }
                 }
                 .border{
-                    width: 95vw;
+                    width: 90vw;
                 }
                 .descriptionBlock{
                     p{
@@ -100,7 +102,28 @@
     }
     .Expedia{
         .blockWrapper{
+            
             height: calc(100vh - 120px);
+            .infoBlock{
+                display: contents;
+                .images{
+                    height: calc(50vh - 120px);
+                    .swiper{
+                        height: inherit;
+                        .swiper-wrapper{
+                            align-items: center;
+                            .swiper-slide{
+                                container-type: size;
+                                justify-content: center;
+                                img{
+                                    width: 120cqh;
+                                }
+                            }
+                        }
+                    }
+    
+                }
+            }
 
 
         }
@@ -140,31 +163,30 @@
             }
             .images{
                 height: 40vh;
+
                 .swiper{
                     width: 55cqw;
-                    height: 35cqh;
-                    // margin-top: 0px;
-                    .swiper-wrapper{
-                        bottom: 0;
-                        .swiper-slide{  
-                            container-type: size;
-
-                            .imageWrapper{
-                                width: 50cqw;
-                                height: 35vh;
-                                .image{
-                                    // width: 55%;
-                                }
-                            }
+                    // height: 15cqh;
+                    // display: contents;
+                    top: 15vh;
+                    margin-top: unset;
+                    // bottom: 10vh;
+                    .swiper-slide{
+                        width: 100vw;
+                        .imageWrapper{
+                            width: 20cqh ;
+                            height: 40vh ;
                         }
                     }
-                    
                 }
             }
             .infoBlock{
                 height: 60vh;
                 .infoBlockWrapper{
                     padding-top: 10vh;
+                }
+                .border{
+                    width: 90vw;
                 }
             }
         }
@@ -201,6 +223,11 @@
         max-height: 90vh;
         .blockWrapper{
             flex-direction: column;
+            .infoBlock{
+                .border{
+                    width: 90cqw !important;
+                }
+            }
 
         }
     }
