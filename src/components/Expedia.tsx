@@ -9,6 +9,8 @@ import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
+
+
 // import "./styles.css";
 
 // import required modules
@@ -50,7 +52,7 @@ export default function Expedia() {
             </div>
             <div className="images">
                 <div className="bgImg">
-                    <img src="goldBg.jpg" alt="" />
+                    <img src="build/goldBg.jpg" alt="" />
                 </div>
                 <Swiper
                     autoplay={{ delay: 5000 }}
@@ -64,20 +66,20 @@ export default function Expedia() {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <img src="exp1.png" alt="" />
+                        <img src="build/exp1.png" alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        {/* <img className='coverImage' src="exp2.png" alt=""/> */}
-                        <img src="exp2.png" alt=""/>
+                        {/* <img className='coverImage' src="build/exp2.png" alt=""/> */}
+                        <img src="build/exp2.png" alt=""/>
 
                     </SwiperSlide>
                     <SwiperSlide>
-                        {/* <img className='coverImage' src="exp3.png" alt="" /> */}
-                        <img src="exp3.png" alt="" />
+                        {/* <img className='coverImage' src="build/exp3.png" alt="" /> */}
+                        <img src="build/exp3.png" alt="" />
 
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="exp4.png" alt="" />
+                        <img src="build/exp4.png" alt="" />
                     </SwiperSlide>
                 </Swiper>
             </div>

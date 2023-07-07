@@ -29,7 +29,7 @@ export default function MovieApp() {
         <div className="blockWrapper">
             <div className="images">
                 <div className="bgImg">
-                    <img src="revertGoldBg.png" alt="" />
+                    <img src="build/revertGoldBg.png" alt="" />
                 </div>
                 <Swiper
                     autoplay={{ delay: 5000 }}
@@ -43,22 +43,22 @@ export default function MovieApp() {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        {/* <img className='coverImage' src="movie1.png" alt="" /> */}
-                        <img  src="movie1.png" alt="" />
+                        {/* <img className='coverImage' src="build/movie1.png" alt="" /> */}
+                        <img  src="build/movie1.png" alt="" />
 
                     </SwiperSlide>
                     <SwiperSlide>
-                        {/* <img className='coverImage' src="movie2.png" alt=""/> */}
-                        <img  src="movie2.png" alt=""/>
+                        {/* <img className='coverImage' src="build/movie2.png" alt=""/> */}
+                        <img  src="build/movie2.png" alt=""/>
 
                     </SwiperSlide>
                     <SwiperSlide>
-                        {/* <img className='coverImage' src="movie3.png" alt="" /> */}
-                        <img src="movie3.png" alt="" />
+                        {/* <img className='coverImage' src="build/movie3.png" alt="" /> */}
+                        <img src="build/movie3.png" alt="" />
 
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img  src="movie4.png" alt="" />
+                        <img  src="build/movie4.png" alt="" />
                     </SwiperSlide>
                 </Swiper>
 
