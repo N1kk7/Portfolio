@@ -52,7 +52,7 @@
             height: 40vh;
             width: 100vw;
             .swiper{
-                // height: 30vh;
+                height: inherit;
                 height: -webkit-fill-available;
                 width: 80vw;
                 .swiper-wrapper{
