@@ -8,7 +8,7 @@ import SwiperCore, { Autoplay } from 'swiper';
 import "swiper/css";
 import "swiper/css/effect-cube";
 import "swiper/css/pagination";
-import { EffectCube } from "swiper";
+// import { EffectCube } from "swiper";
 import { useEffect } from "react";
 import { useRef } from "react";
 
@@ -185,16 +185,16 @@ useEffect(() => {
                 </div>
                 <Swiper
                     autoplay={{ delay: 5000 }}
-                    effect={"cube"}
+                    // effect={"cube"}
                     grabCursor={true}
-                    cubeEffect={{
-                    shadow: true,
-                    slideShadows: true,
-                    shadowOffset: 20,
-                    shadowScale: 0.94,
-                    }}
-                    pagination={true}
-                    modules={[EffectCube]}
+                    // cubeEffect={{
+                    // shadow: true,
+                    // slideShadows: true,
+                    // shadowOffset: 20,
+                    // shadowScale: 0.94,
+                    // }}
+                    // pagination={true}
+                    // modules={[EffectCube]}
                     className="mySwiper"
                 >
                     <SwiperSlide>
