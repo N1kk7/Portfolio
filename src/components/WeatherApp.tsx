@@ -30,7 +30,7 @@ export default function WeatherApp() {
                     <div className="buttons">
                         <a className="btn " href="@" role='button'>Tech</a>
 
-                        <a className="btn " href="https://n1kk7.github.io/Expedia/dev/">Weather App</a>
+                        <a className="btn " href="https://n1kk7.github.io/Expedia/dev/">Weather</a>
 
                         <a className="btn " href="https://n1kk7.github.io/Expedia/">Github</a>
 
@@ -43,6 +43,7 @@ export default function WeatherApp() {
                 <div className="bgImg">
                     <img src="./goldBg.jpg" alt="" />
                 </div>
+                <div className="gridWrapper">
                 <div className="grid-container">
                     <div
                         className="grid-item flex flex-col rounded-xl border-gray-300 hover:ring-brand ring-2 ring-gray-300 hover:border-gray-500 overflow-hidden shadow-xl max-wv-9 min-hv-1 max-hv-9 border-1">
@@ -179,6 +180,7 @@ export default function WeatherApp() {
                         {/* {/* {!props.style && <img className='cartImg' src={e.dImg} alt="" />} */}
                         {<img className='cartImg' src="./n-Zaporizhia.jpeg" alt="" />}
                     </div>
+                </div>
                 </div>
             </div>
         </div>

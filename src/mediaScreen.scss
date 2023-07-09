@@ -46,16 +46,24 @@
 @media screen and (max-width: 425px) {
     .blockWrapper{
         flex-direction: column-reverse;
+        height: inherit;
+        // height: 80vh;
         .images{
             height: 40vh;
             width: 100vw;
             .swiper{
-                height: 30vh;
+                // height: 30vh;
+                height: -webkit-fill-available;
                 width: 80vw;
-                .swiper-slide{
-                    height: 40vh;
-                    img{
-                        width: 80cqw;
+                .swiper-wrapper{
+                    container-type: size;
+                    .swiper-slide{
+                        // height: 40vh;
+                        height: inherit;
+                        img{
+                            // width: 80cqw;
+                            width: 150cqh;
+                        }
                     }
                 }
             }
@@ -69,11 +77,16 @@
         .infoBlock{
             height: 50vh;
             padding: unset;
+            // display: contents;
             .infoBlockWrapper{
                 vertical-align: unset;
-                padding: 6vh 5vw 55px 5vw;
-                height: 50vh;
-                top: 0;
+                // padding: 0vh 5vw 55px 5vw;
+                // height: 50vh;
+                // height: 100cqi !important;
+                padding: 0vh 5vw 0 5vw;
+                height: 50cqi !important;
+                top: 15vh;
+
                 .tittleBlock{
                     h1{
                         font-size: 9cqw;
@@ -83,46 +96,62 @@
                     width: 90vw;
                 }
                 .descriptionBlock{
+                    padding-bottom: 7vh;
                     p{
                         font-size: 3cqw;
                     }
                 }
                 .buttons{
+                    display: contents;
                     position: relative;
                     justify-content: center;
                     top: 9vh !important;
                     .btn{
-                        font-size: 2.5cqw;
-                        height: 6cqh;
+                        display: inline-block;
+                        line-height: 5vh;
                         padding: 0 3cqw;
+                        font-size: 2cqw;
+                        height: 6cqh;
+                        width: 24cqw;
+                        margin: 0 8px;
                     }
                 }
             }
         }
     }
     .Expedia{
+        overflow: hidden;
+        height: 110vh;
         .blockWrapper{
+            height: 80vh;
+            .images{
+                // height: calc(50vh - 120px);
+                height: 40vh;
+            }
             
-            height: calc(100vh - 120px);
+            // height: calc(100vh - 120px);
+            // height: unset;
             .infoBlock{
                 display: contents;
-                .images{
-                    height: calc(50vh - 120px);
-                    .swiper{
-                        height: inherit;
-                        .swiper-wrapper{
-                            align-items: center;
-                            .swiper-slide{
-                                container-type: size;
-                                justify-content: center;
-                                img{
-                                    width: 120cqh;
+                
+                    .infoBlockWrapper{
+                        bottom: unset;
+                        top: 0;
+                        .swiper{
+                            height: inherit;
+                            .swiper-wrapper{
+                                align-items: center;
+                                .swiper-slide{
+                                    container-type: size;
+                                    justify-content: center;
+                                    img{
+                                        width: 120cqh;
+                                    }
                                 }
                             }
                         }
                     }
     
-                }
             }
 
 
@@ -171,11 +200,14 @@
                     top: 1vh;
                     margin-top: unset;
                     // bottom: 10vh;
-                    .swiper-slide{
-                        width: 100vw;
-                        .imageWrapper{
-                            width: 20cqh ;
-                            height: 40vh ;
+                    .swiper-wrapper{
+                        container-type: unset;
+                        .swiper-slide{
+                            width: 100vw;
+                            .imageWrapper{
+                                width: 20cqh ;
+                                height: 40vh ;
+                            }
                         }
                     }
                 }
@@ -195,7 +227,7 @@
         }
     }
     .WeatherApp{
-        
+        max-height: 85vh;
         .images{
             overflow: auto;
             height: 45vh;
@@ -239,8 +271,21 @@
         max-height: 90vh;
         .infoBlock{
             height: 55vh;
+            .infoBlockWrapper{
+                top: 5vh;
+            }
         }
 
+    }
+    .footer{
+        .container{
+            .imagesWrapper{
+                img{
+                    width: 10cqw;
+                    margin: 0 4cqw;
+                }
+            }
+        }
     }
 
 }
