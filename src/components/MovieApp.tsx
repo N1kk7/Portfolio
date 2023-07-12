@@ -1,6 +1,8 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay } from 'swiper';
+import { modalFunc } from '../redux/modalSlice';
+import { useDispatch } from 'react-redux';
 
 
 // Import Swiper styles
@@ -17,6 +19,8 @@ import { EffectFade } from "swiper";
 
 
 export default function MovieApp() {
+    const dispatch = useDispatch();
+
 
     SwiperCore.use([Autoplay]);
 
@@ -75,11 +79,11 @@ export default function MovieApp() {
                             </p>
                         </div>
                         <div className="buttons">
-                            <a className="btn " href="@" role='button'>Tech</a>
+                            <div className="btn "  role='button' onClick={() => dispatch(modalFunc("Movie"))}>Tech</div>
 
-                            <a className="btn " href="https://n1kk7.github.io/Expedia/dev/">Movie App</a>
+                            <a className="btn " href="https://n1kk7.github.io/movieApp/build/">Movie App</a>
 
-                            <a className="btn " href="https://n1kk7.github.io/Expedia/">Github</a>
+                            <a className="btn " href="https://github.com/N1kk7/movieApp">Github</a>
 
                     </div>
                 </div>    

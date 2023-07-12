@@ -48,7 +48,7 @@
       }
       .buttons{
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
         position: absolute;
         top: 90vh;
         text-align: end;
@@ -422,6 +422,175 @@ margin: 0 1cqw;
       }
     }
   }
+}
+.tech{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 15;
+    overflow: hidden;
+    // background-color: #ffffff05;
+    // opacity: 0.1;
+    // backdrop-filter: blur(10px);
+    // -webkit-backdrop-filter: blur(25px);
+
+    // background-color: inherit;
+    .techWrapper{
+      width: 40vw;
+      height: 45vh;
+      // background-color: #ffffff;
+      backdrop-filter: blur(10px);
+      border-radius: 2cqw;
+      border: 1px solid white;
+      .topItem{
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: black;
+        opacity: 0.8;
+        border-radius: inherit;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 7cqw 4cqh;
+        justify-content: center;
+        align-items: center;
+        height: 7vh;
+        .closeBtn{
+          text-align: right;
+          img{
+            display: inline-block;
+            cursor: pointer;
+            width: 5cqw;
+            padding: 1cqw;
+            // height: 5cqh;
+          }
+        }
+        .blockTittle{
+          h1{
+            font-size: 2cqw;
+            color: white;
+            font-family:  Cormonant SC;
+            letter-spacing: 1cqw;
+            background-color: black;
+            width: fit-content;
+            margin: 0 auto;
+            padding: 0 20px;
+            border-radius: 10px;
+            opacity: 0.8;
+          }
+        }
+      }
+      .closeButton{
+        display: flex;
+        height: 5cqh;
+        justify-content: flex-end;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        .buttonWrapper{
+          width: 15cqw;
+          background-color: black;
+          border-radius: 2cqw;
+          border-top-right-radius: 0px 0px;
+          border-bottom-left-radius: 4px 4px;
+          border-top-left-radius: 8cqw 3cqw;
+          cursor: pointer;
+
+          h2{
+            font-size: 2cqw;
+            opacity: 0.8;
+            color: white;
+            font-family: Cormonant SC;
+            letter-spacing: 0.5cqw;
+            height: -webkit-fill-available;
+            padding-top: 0.5cqw;
+  
+  
+          }
+        }
+        
+      }
+      
+      .itemContainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+        img{
+          width: 5cqw;
+          margin: 2cqw;
+        }
+      }
+    }
+  //   .close-container{
+  //     position: relative;
+  //     margin: auto;
+  //     width: 50px;
+  //     height: 50px;
+  //     margin-top: 100px;
+  //     cursor: pointer;
+      
+  //     label{
+  //       color: white;
+  //       font-family: Helvetica, Arial, sans-serif; 
+  //       font-size: .6em;
+  //       text-transform: uppercase;
+  //       letter-spacing: 2px;
+  //       transition: all .3s ease-in;
+  //       opacity: 0;
+  //     }
+  //     .close{
+  //       margin: 60px 0 0 5px;
+  //       position: absolute;
+  //     }
+  //   }
+    
+    
+  //   .close-container .leftright{
+  //     height: 4px;
+  //     width: 50px;
+  //     position: absolute;
+  //     margin-top: 24px;
+  //     background-color: white;
+  //     border-radius: 2px;
+  //     transform: rotate(45deg);
+  //     transition: all .3s ease-in;
+  //   }
+    
+  //   .close-container .rightleft{
+  //     height: 4px;
+  //     width: 50px;
+  //     position: absolute;
+  //     margin-top: 24px;
+  //     background-color: white;
+  //     border-radius: 2px;
+  //     transform: rotate(-45deg);
+  //     transition: all .3s ease-in;
+  //   }
+    
+   
+    
+  //   .close-container:hover .leftright{
+  //     transform: rotate(-45deg);
+  //     background-color: red;
+  //   }
+  //   .close-container:hover .rightleft{
+  //     transform: rotate(45deg);
+  //     background-color: red;
+  //   }
+  //   .close-container:hover label{
+  //     opacity: 1;
+  //   }
+  // .techWrapper{
+  //   width: 50vw;
+  //   height: 50vh;
+  //   background-color: gray;
+
+  // }
 }
 
 // ANIMATION

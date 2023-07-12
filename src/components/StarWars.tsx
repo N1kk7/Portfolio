@@ -2,6 +2,8 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay } from 'swiper';
+import { modalFunc } from "../redux/modalSlice";
+import { useDispatch } from "react-redux";
 
 
 // Import Swiper styles
@@ -18,6 +20,7 @@ import React from "react";
 export default function StarWars() {
     SwiperCore.use([Autoplay]);
     let canvasRef:any = useRef<HTMLCanvasElement>(null);
+    const dispatch = useDispatch();
     
 
 
@@ -283,11 +286,11 @@ useEffect(() => {
                         </p>
                     </div>
                     <div className="buttons">
-                        <a className="btn " href="@" role='button'>Tech</a>
+                        <div className="btn " role='button' onClick={() => dispatch(modalFunc("StarWars"))}>Tech</div>
 
-                        <a className="btn " href="https://n1kk7.github.io/Expedia/dev/">Star Wars</a>
+                        <a className="btn " href="https://n1kk7.github.io/StarWars/www/">Star Wars</a>
 
-                        <a className="btn " href="https://n1kk7.github.io/Expedia/">Github</a>
+                        <a className="btn " href="https://github.com/N1kk7/StarWars">Github</a>
 
 
                     </div>

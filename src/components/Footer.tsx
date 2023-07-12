@@ -7,10 +7,10 @@ export default function Footer() {
     <div className="footer">
       <div className="container">
           <div className="imagesWrapper">
-            <img src="./cv.png" style={{border: '1px solid white'}}></img>
-            <img src="./facebook.png"></img>
-            <img src="./inst.png"></img>
-            <img src="./git.png"></img>
+            <img src="./cv.png" style={{border: '1px solid white'}} alt=""></img>
+            <img src="./facebook.png" alt=""></img>
+            <img src="./inst.png" alt=""></img>
+            <img src="./git.png" alt=""></img>
           </div>
           </div>
           

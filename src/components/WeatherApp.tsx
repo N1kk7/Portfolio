@@ -1,4 +1,6 @@
 import React from 'react'
+import { modalFunc } from '../redux/modalSlice'
+import { useDispatch } from 'react-redux'
 
 
 
@@ -6,6 +8,7 @@ import React from 'react'
 
 
 export default function WeatherApp() {
+    const dispatch = useDispatch();
 
 
 
@@ -28,11 +31,11 @@ export default function WeatherApp() {
                         </p>
                     </div>
                     <div className="buttons">
-                        <a className="btn " href="@" role='button'>Tech</a>
+                        <div className="btn " role='button' onClick={() => dispatch(modalFunc("Weather"))}>Tech</div>
 
-                        <a className="btn " href="https://n1kk7.github.io/Expedia/dev/">Weather</a>
+                        <a className="btn " href="https://n1kk7.github.io/weatherApp/build/">Weather</a>
 
-                        <a className="btn " href="https://n1kk7.github.io/Expedia/">Github</a>
+                        <a className="btn " href="https://github.com/N1kk7/weatherApp">Github</a>
 
 
                 </div>

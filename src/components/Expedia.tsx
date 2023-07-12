@@ -1,6 +1,7 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay } from 'swiper';
+import { modalFunc } from '../redux/modalSlice';
 
 
 // Import Swiper styles
@@ -8,6 +9,8 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { useDispatch} from 'react-redux';
+
 
 
 
@@ -15,9 +18,16 @@ import "swiper/css/pagination";
 
 // import required modules
 import { EffectFade } from "swiper";
+import Tech from './Tech';
+// import Tech from './Tech';
 
 export default function Expedia() {
 
+    // const [modal, setModal] = useState(false);
+    // const modal = useSelector((state:any) => state.modal);
+    const dispatch = useDispatch();
+
+    // console.log(modal)
 
     SwiperCore.use([Autoplay]);
 
@@ -40,11 +50,11 @@ export default function Expedia() {
                         </p>
                     </div>
                     <div className="buttons">
-                        <a className="btn " href="@" role='button'>Tech</a>
+                        <div className="btn "   role='button' onClick={() => dispatch(modalFunc("expedia"))}>Tech</div>
 
                         <a className="btn " href="https://n1kk7.github.io/Expedia/dev/">Expedia</a>
 
-                        <a className="btn " href="https://n1kk7.github.io/Expedia/">Github</a>
+                        <a className="btn " href="https://github.com/N1kk7/Expedia">Github</a>
 
 
                     </div>
@@ -85,6 +95,8 @@ export default function Expedia() {
                 </Swiper>
             </div>
         </div>
+        <Tech />
+        {/* {modal && <Tech param={"expedia"}/>} */}
     </div>
   )
 }

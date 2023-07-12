@@ -1,6 +1,8 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay } from 'swiper';
+import { modalFunc } from '../redux/modalSlice';
+import { useDispatch } from 'react-redux';
 
 
 // Import Swiper styles
@@ -13,6 +15,7 @@ import "swiper/css/pagination";
 import { EffectFade } from "swiper";
 
 export default function Cocktail() {
+    const dispatch = useDispatch();
 
   SwiperCore.use([Autoplay]);
 
@@ -39,11 +42,11 @@ export default function Cocktail() {
                         </p>
                     </div>
                     <div className="buttons">
-                        <a className="btn " href="@" role='button'>Tech</a>
+                        <div className="btn "  role='button' onClick={() => dispatch(modalFunc("Cocktail"))}>Tech</div>
 
-                        <a className="btn " href="https://n1kk7.github.io/Expedia/dev/">Cocktail</a>
+                        <a className="btn " href="https://n1kk7.github.io/cocktail/build/">Cocktail</a>
 
-                        <a className="btn " href="https://n1kk7.github.io/Expedia/">Github</a>
+                        <a className="btn " href="https://github.com/N1kk7/cocktail">Github</a>
 
 
                     </div>
