@@ -178,6 +178,7 @@ export default function Tech(param: any) {
                 </div> */}
 
             </div>
+            <div className="techBg"></div>
         </div>}
     
     </>

@@ -7,6 +7,7 @@ export const modalSlice = createSlice({
         stateModal: false,
         // modalData: "ololo",
         blockName: "",
+        mobileBar: false
         // StarWars: false,
         // weather: false,
         // movie: false,
@@ -49,7 +50,25 @@ export const modalSlice = createSlice({
                 break;
             }
             // console.log(state.stateModal);
-        }
+        },
+        mobileSideBar: (state, param) => {
+            switch (param.payload) {
+                case "ActiveBar": 
+                    state.mobileBar = true;
+                break;
+                case "RemoveBar": 
+                    state.mobileBar = true;
+                break;
+
+                
+            }
+
+        },
+        // mobileBarRemove: (state) => {
+
+        // }
+
+        
     }
 })
 

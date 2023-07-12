@@ -9,6 +9,10 @@ import WindowBar from './WindowBar'
 import Tech from './Tech'
 
 export default function Header() {
+
+
+
+
   return (
     <>
         <div className="header" >

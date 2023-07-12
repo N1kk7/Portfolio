@@ -1,6 +1,28 @@
 import React from 'react'
 
 export default function WindowBar() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   return (
     <div className="WindowBar">
       <div className="containerBar">

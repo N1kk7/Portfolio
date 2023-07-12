@@ -433,6 +433,7 @@ margin: 0 1cqw;
     top: 0;
     z-index: 15;
     overflow: hidden;
+    backdrop-filter: blur(5px);
     // background-color: #ffffff05;
     // opacity: 0.1;
     // backdrop-filter: blur(10px);
@@ -443,9 +444,11 @@ margin: 0 1cqw;
       width: 40vw;
       height: 45vh;
       // background-color: #ffffff;
+      position: relative;
       backdrop-filter: blur(10px);
       border-radius: 2cqw;
       border: 1px solid white;
+      z-index: 1;
       .topItem{
         display: flex;
         flex-direction: row-reverse;
@@ -526,6 +529,16 @@ margin: 0 1cqw;
         }
       }
     }
+    .techBg{
+      width: 40cqw;
+      height: 45cqh;
+      position: absolute;
+      border-radius: 2cqw;
+      background-color: white;
+      opacity: 0.2;
+      z-index: 0;
+    }
+
   //   .close-container{
   //     position: relative;
   //     margin: auto;

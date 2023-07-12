@@ -41,6 +41,8 @@
     }
     .WindowBar{
         right: -7cqw;
+        z-index: 1;
+        opacity: 1;
     }
 }
 @media screen and (max-width: 425px) {
