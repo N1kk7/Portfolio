@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 import { useDispatch} from 'react-redux';
 
 
-
+// import goldBg from './goldBg.jpg'
 
 // import "./styles.css";
 
@@ -62,7 +62,21 @@ export default function Expedia() {
             </div>
             <div className="images">
                 <div className="bgImg">
-                    <img src="./goldBg.jpg" alt="" />
+                {/* <picture>
+                    <source media="(min-width:650px)" srcSet="img_pink_flowers.jpg">
+                    <source media="(min-width:465px)" srcSet="img_white_flower.jpg">
+                    <img src="img_orange_flowers.jpg" alt="Flowers" >
+                </picture> */}
+                    <img 
+                        src="./goldBg.jpg" 
+
+                        srcSet="./goldBg-mobile.jpg 300w, ./goldBg-mobile.jpg 768w, ./goldBg.jpg 1280w"
+
+                    
+                        // srcSet="./goldBg-mobile.jpg 768w, ./goldBg.jpg 1440w"
+                        // sizes="360px"
+                        alt="" 
+                    />
 
                 </div>
                 <Swiper
