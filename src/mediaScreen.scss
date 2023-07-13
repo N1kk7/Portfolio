@@ -43,10 +43,11 @@
 
     }
     .WindowBar{
-        width: 20cqw;
-        right: -20cqw;
+        width: 15cqw;
+        right: -15cqw;
         z-index: 2;
         opacity: 1;
+        transition: all ease 0.5s;
         .itemBtn{
             opacity: 0.9 !important;
             img{
@@ -63,6 +64,7 @@
         
     }
     .activeMobileBar{
+        transition: all ease 0.5s;
         right: 0cqw;
         z-index: 20;
     }

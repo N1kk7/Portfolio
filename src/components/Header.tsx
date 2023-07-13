@@ -15,37 +15,46 @@ export default function Header() {
 
   return (
     <>
-        <div className="header" >
-            <div className="container">
-                <div className="headerWrapper">
-                    <div className="headerItem">
+    <div className="screenWrapper">
+        <div className="appWrapper">
+            <div className="header" >
+                <div className="container">
+                    <div className="headerWrapper">
+                        <div className="headerItem">
+
+                        </div>
+                        <div className="headerItem">
+                            <div className="headerLogo">
+                                <h1>Nikk7</h1>
+                                <span>PORTFOLIO</span>
+                            </div>
+                            <div className="lineMiddle">
+                            </div>
+                            <div className="lineSmall">
+                            </div>
+                        </div>
+                        <div className="headerItem">
+
+                        </div>
 
                     </div>
-                    <div className="headerItem">
-                        <div className="headerLogo">
-                            <h1>Nikk7</h1>
-                            <span>PORTFOLIO</span>
-                        </div>
-                        <div className="lineMiddle">
-                        </div>
-                        <div className="lineSmall">
-                        </div>
-                    </div>
-                    <div className="headerItem">
-
-                    </div>
-
                 </div>
             </div>
+            <Expedia/>
+            <StarWars/>
+            <WeatherApp/>
+            <MovieApp/>
+            <Cocktail/>
+            <Footer/>
+
         </div>
-        <Expedia/>
-        <StarWars/>
-        <WeatherApp/>
-        <MovieApp/>
-        <Cocktail/>
-        <Footer/>
-        <WindowBar/>
-        {/* <Tech/> */}
+        <div className="sideBar">
+            <WindowBar/>
+
+
+        </div>
+    </div>
+        
 
     </>
 

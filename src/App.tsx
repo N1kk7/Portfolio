@@ -39,7 +39,7 @@ const mobileBar = useSelector((state: any) => state.modal.mobileBar);
 
     if(!mobileBar) {
       // setStateBar(true);
-      dispatch(mobileSideBar("ActiveBar"))
+      setTimeout(() => {dispatch(mobileSideBar("ActiveBar"))}, 300);
       // console.log("active bar");
       
     }
