@@ -7,7 +7,7 @@ export const modalSlice = createSlice({
         stateModal: false,
         // modalData: "ololo",
         blockName: "",
-        mobileBar: false
+        mobileBar: false,
         // StarWars: false,
         // weather: false,
         // movie: false,
@@ -57,7 +57,9 @@ export const modalSlice = createSlice({
                     state.mobileBar = true;
                 break;
                 case "RemoveBar": 
-                    state.mobileBar = true;
+
+                
+                    state.mobileBar = false;
                 break;
 
                 
@@ -72,5 +74,5 @@ export const modalSlice = createSlice({
     }
 })
 
-export const {modalFunc} = modalSlice.actions;
+export const {modalFunc, mobileSideBar} = modalSlice.actions;
 export default modalSlice.reducer;

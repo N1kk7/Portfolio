@@ -151,7 +151,7 @@
   opacity: 0.95;
   position: fixed;
   width: 100%;
-  z-index: 12;
+  z-index: 16;
   .container{
     margin: 0 auto; 
     .headerWrapper{
@@ -441,7 +441,7 @@ margin: 0 1cqw;
 
     // background-color: inherit;
     .techWrapper{
-      width: 40vw;
+      width: 50vw;
       height: 45vh;
       // background-color: #ffffff;
       position: relative;
@@ -530,7 +530,7 @@ margin: 0 1cqw;
       }
     }
     .techBg{
-      width: 40cqw;
+      width: 50cqw;
       height: 45cqh;
       position: absolute;
       border-radius: 2cqw;

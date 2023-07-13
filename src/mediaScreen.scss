@@ -1,4 +1,7 @@
 @media screen and (max-width: 768px) {
+    .header{
+        z-index: 50;
+    }
     .blockWrapper{
         width: 100%;
         .infoBlock{
@@ -40,9 +43,28 @@
 
     }
     .WindowBar{
-        right: -7cqw;
-        z-index: 1;
+        width: 20cqw;
+        right: -20cqw;
+        z-index: 2;
         opacity: 1;
+        .itemBtn{
+            opacity: 0.9 !important;
+            img{
+                max-width: 12cqw !important;
+            }
+            span{
+                font-size: 2cqw !important;
+                width: 12cqw !important;
+                letter-spacing: 1px !important;
+            }
+
+        }
+        
+        
+    }
+    .activeMobileBar{
+        right: 0cqw;
+        z-index: 20;
     }
 }
 @media screen and (max-width: 425px) {

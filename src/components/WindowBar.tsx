@@ -1,30 +1,40 @@
 import React from 'react'
+import { useSelector} from 'react-redux'
+
+
 
 export default function WindowBar() {
 
+  const barState = useSelector((state: any) => state.modal.mobileBar);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  // console.log(barState);
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   return (
-    <div className="WindowBar">
+    <div className={`WindowBar ${barState ? 'activeMobileBar' : ''}`}>
       <div className="containerBar">
         <div className="buttonBar">
           <a href='#Expedia'><div className="itemBtn">
