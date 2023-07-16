@@ -62,21 +62,27 @@ export default function Expedia() {
             </div>
             <div className="images">
                 <div className="bgImg">
-                {/* <picture>
-                    <source media="(min-width:650px)" srcSet="img_pink_flowers.jpg">
-                    <source media="(min-width:465px)" srcSet="img_white_flower.jpg">
-                    <img src="img_orange_flowers.jpg" alt="Flowers" >
-                </picture> */}
-                    <img 
-                        src="./goldBg.jpg" 
+                <picture>
+                    {/* <source 
+                        sizes="(max-width: 500px) 300px, 700px"
+                        srcSet="./goldBg.jpg 300w, ./people1.png 700w"
+                    /> */}
+                    <img src="./goldBg-mobile.jpg" alt="alt" /> 
+               
+                </picture>
+             {/* <img 
 
-                        srcSet="./goldBg-mobile.jpg 300w, ./goldBg-mobile.jpg 768w, ./goldBg.jpg 1280w"
+            //     srcSet="./goldBg-mobile.jpg 300w, ./goldBg-mobile.jpg 768w, ./goldBg.jpg 1280w"
 
+                // sizes="(max-width: 500px) 300px, 700px"
+                srcSet="./goldBg-mobile.jpg 300w, ./people1.png 700w"
+                src="./goldBg.jpg" 
+
+            //     // sizes="360px"
+                alt="" 
+            // 
+            /> */}
                     
-                        // srcSet="./goldBg-mobile.jpg 768w, ./goldBg.jpg 1440w"
-                        // sizes="360px"
-                        alt="" 
-                    />
 
                 </div>
                 <Swiper
