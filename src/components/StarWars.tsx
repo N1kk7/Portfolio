@@ -177,7 +177,11 @@ useEffect(() => {
     <div className="StarWars" id="StarWars">
         <div className="blockWrapper" >
             <div className="bgImg">
-                <img src="./revertGoldBg.png" alt="" />
+                {/* <img src="./revertGoldBg.png" alt="" /> */}
+                <picture>
+                    <source srcSet="./goldBg-mobile.jpg" media="(max-width: 700px)" />
+                    <img src="./goldBg.jpg" alt="" />
+                </picture>
             </div>
             <div className="images" >
                 
@@ -203,21 +207,39 @@ useEffect(() => {
                     <SwiperSlide>
                         <div className="imageWrapper">
                             <div className="left-image">
-                                <img className="image imgBottom" src="./films1.png" alt="" />
+                                {/* <img className="image imgBottom" src="./films1.png" alt="" /> */}
+                                <picture>
+                                    <source className="image imgBottom" srcSet="./films1-mobile.png" media="(max-width: 700px)" />
+                                    <img className="image imgBottom" src="./films1.png" alt="" />
+                                </picture>
+                                
                             </div>
                             <div className="right-image">
-                                <img className="image imgBottom" src="./films1.png" alt="" />
+                                {/* <img className="image imgBottom" src="./films1.png" alt="" /> */}
+                                <picture>
+                                    <source className="image imgBottom" srcSet="./films1-mobile.png" media="(max-width: 700px)" />
+                                    <img className="image imgBottom" src="./films1.png" alt="" />
+                                </picture>
+                                
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="imageWrapper imageDown">
                             <div className="left-image">
-                                <img className="image"  src="./vehicles1.png" alt=""/>
+                                {/* <img className="image"  src="./vehicles1.png" alt=""/> */}
+                                <picture>
+                                    <source className="image" srcSet="./vehicles1-mobile.png" media="(max-width: 700px)" />
+                                    <img className="image" src="./vehicles1.png" alt="" />
+                                </picture>
 
                             </div>
                             <div className="right-image">
-                                <img className="image"  src="./vehicles1.png" alt=""/>
+                                {/* <img className="image"  src="./vehicles1.png" alt=""/> */}
+                                <picture>
+                                    <source className="image" srcSet="./vehicles1-mobile.png" media="(max-width: 700px)" />
+                                    <img className="image" src="./vehicles1.png" alt="" />
+                                </picture>
                                 
                             </div>
                         </div>
@@ -237,11 +259,19 @@ useEffect(() => {
                     <SwiperSlide>
                         <div className="imageWrapper">
                             <div className="left-image">
-                                <img className="image imgBottom"  src="./films2.png" alt="" />
+                                {/* <img className="image imgBottom"  src="./films2.png" alt="" /> */}
+                                <picture>
+                                    <source className="image imgBottom" srcSet="./films2-mobile.png" media="(max-width: 700px)" />
+                                    <img className="image imgBottom" src="./films2.png" alt="" />
+                                </picture>
 
                             </div>
                             <div className="right-image">
-                                <img className="image imgBottom"  src="./films2.png" alt="" />
+                                {/* <img className="image imgBottom"  src="./films2.png" alt="" /> */}
+                                <picture>
+                                    <source className="image imgBottom" srcSet="./films2-mobile.png" media="(max-width: 700px)" />
+                                    <img className="image imgBottom" src="./films2.png" alt="" />
+                                </picture>
                                 
                             </div>
                         </div>

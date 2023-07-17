@@ -12,6 +12,7 @@ import "swiper/css/pagination";
 import { useDispatch} from 'react-redux';
 
 
+
 // import goldBg from './goldBg.jpg'
 
 // import "./styles.css";
@@ -62,28 +63,10 @@ export default function Expedia() {
             </div>
             <div className="images">
                 <div className="bgImg">
-                <picture>
-                    {/* <source 
-                        sizes="(max-width: 500px) 300px, 700px"
-                        srcSet="./goldBg.jpg 300w, ./people1.png 700w"
-                    /> */}
-                    <img src="./goldBg-mobile.jpg" alt="alt" /> 
-               
-                </picture>
-             {/* <img 
-
-            //     srcSet="./goldBg-mobile.jpg 300w, ./goldBg-mobile.jpg 768w, ./goldBg.jpg 1280w"
-
-                // sizes="(max-width: 500px) 300px, 700px"
-                srcSet="./goldBg-mobile.jpg 300w, ./people1.png 700w"
-                src="./goldBg.jpg" 
-
-            //     // sizes="360px"
-                alt="" 
-            // 
-            /> */}
-                    
-
+                    <picture>
+                        <source srcSet="./goldBg-mobile.jpg" media="(max-width: 700px)" />
+                        <img src="./goldBg.jpg" alt="" />
+                    </picture>
                 </div>
                 <Swiper
                     autoplay={{ delay: 5000 }}
@@ -97,20 +80,37 @@ export default function Expedia() {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <img src="./exp1.png" alt="" />
+                        {/* <img src="./exp1.png" alt="" /> */}
+                        <picture>
+                            <source srcSet="./exp1-mobile.png" media="(max-width: 700px)" />
+                            <img src="./exp1.png" alt="" />
+                        </picture>
                     </SwiperSlide>
                     <SwiperSlide>
                         {/* <img className='coverImage' src="./exp2.png" alt=""/> */}
-                        <img src="./exp2.png" alt=""/>
+                        {/* <img src="./exp2.png" alt=""/> */}
+                        <picture>
+                            <source srcSet="./exp2-mobile.png" media="(max-width: 700px)" />
+                            <img src="./exp2.png" alt="" />
+                        </picture>
+
 
                     </SwiperSlide>
                     <SwiperSlide>
                         {/* <img className='coverImage' src="./exp3.png" alt="" /> */}
-                        <img src="./exp3.png" alt="" />
+                        {/* <img src="./exp3.png" alt="" /> */}
+                        <picture>
+                            <source srcSet="./exp3-mobile.png" media="(max-width: 700px)" />
+                            <img src="./exp3.png" alt="" />
+                        </picture>
 
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./exp4.png" alt="" />
+                        {/* <img src="./exp4.png" alt="" /> */}
+                        <picture>
+                            <source srcSet="./exp4-mobile.png" media="(max-width: 700px)" />
+                            <img src="./exp4.png" alt="" />
+                        </picture>
                     </SwiperSlide>
                 </Swiper>
             </div>

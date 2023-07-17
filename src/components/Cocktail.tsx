@@ -53,8 +53,12 @@ export default function Cocktail() {
                 </div>  
             </div>
             <div className="images">
-            <div className="bgImg">
-                    <img src="./goldBg.jpg" alt="" />
+                <div className="bgImg">
+                    {/* <img src="./goldBg.jpg" alt="" /> */}
+                    <picture>
+                        <source srcSet="./goldBg-mobile.jpg" media="(max-width: 700px)" />
+                        <img src="./goldBg.jpg" alt="" />
+                    </picture>
                 </div>
                 <Swiper
                     autoplay={{ delay: 5000 }}
@@ -68,22 +72,47 @@ export default function Cocktail() {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <img src="./cocktail1.png" alt="" />
+                        {/* <img src="./cocktail1.png" alt="" /> */}
+                        <picture>
+                            <source srcSet="./cocktail1-mobile.png" media="(max-width: 700px)" />
+                            <img src="./cocktail1.png" alt="" />
+                        </picture>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./cocktail2.png" alt=""/>
+                        {/* <img src="./cocktail2.png" alt=""/>
+                         */}
+                          <picture>
+                            <source srcSet="./cocktail2-mobile.png" media="(max-width: 700px)" />
+                            <img src="./cocktail2.png" alt="" />
+                        </picture>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./cocktail6.png" alt="" />
+                        {/* <img src="./cocktail6.png" alt="" /> */}
+                        <picture>
+                            <source srcSet="./cocktail3-mobile.png" media="(max-width: 700px)" />
+                            <img src="./cocktail3.png" alt="" />
+                        </picture>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./cocktail4.png" alt="" />
+                        {/* <img src="./cocktail4.png" alt="" /> */}
+                        <picture>
+                            <source srcSet="./cocktail4-mobile.png" media="(max-width: 700px)" />
+                            <img src="./cocktail4.png" alt="" />
+                        </picture>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./cocktail5.png" alt="" />
+                        {/* <img src="./cocktail5.png" alt="" /> */}
+                        <picture>
+                            <source srcSet="./cocktail5-mobile.png" media="(max-width: 700px)" />
+                            <img src="../cocktail5.png" alt="" />
+                        </picture>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./cocktail3.png" alt="" />
+                        {/* <img src="./cocktail3.png" alt="" /> */}
+                        <picture>
+                            <source srcSet="./cocktail6-mobile.png" media="(max-width: 700px)" />
+                            <img src="./cocktail6.png" alt="" />
+                        </picture>
                     </SwiperSlide>
                 </Swiper>
             </div>

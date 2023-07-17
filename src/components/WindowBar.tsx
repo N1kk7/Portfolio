@@ -14,25 +14,6 @@ export default function WindowBar() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   return (
     <div className={`WindowBar ${barState ? 'activeMobileBar' : ''}`}>
       <div className="containerBar">

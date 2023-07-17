@@ -48,21 +48,37 @@ export default function MovieApp() {
                 >
                     <SwiperSlide>
                         {/* <img className='coverImage' src="./movie1.png" alt="" /> */}
-                        <img  src="./movie1.png" alt="" />
+                        {/* <img  src="./movie1.png" alt="" /> */}
+                        <picture>
+                            <source srcSet="./movie1-mobile.png" media="(max-width: 700px)" />
+                            <img src="./movie1.png" alt="" />
+                        </picture>
 
                     </SwiperSlide>
                     <SwiperSlide>
                         {/* <img className='coverImage' src="./movie2.png" alt=""/> */}
-                        <img  src="./movie2.png" alt=""/>
+                        {/* <img  src="./movie2.png" alt=""/> */}
+                        <picture>
+                            <source srcSet="./movie1-mobile.png" media="(max-width: 700px)" />
+                            <img src="./movie1.png" alt="" />
+                        </picture>
 
                     </SwiperSlide>
                     <SwiperSlide>
                         {/* <img className='coverImage' src="./movie3.png" alt="" /> */}
-                        <img src="./movie3.png" alt="" />
+                        {/* <img src="./movie3.png" alt="" /> */}
+                        <picture>
+                            <source srcSet="./movie1-mobile.png" media="(max-width: 700px)" />
+                            <img src="./movie1.png" alt="" />
+                        </picture>
 
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img  src="./movie4.png" alt="" />
+                        {/* <img  src="./movie4.png" alt="" /> */}
+                        <picture>
+                            <source srcSet="./movie1-mobile.png" media="(max-width: 700px)" />
+                            <img src="./movie1.png" alt="" />
+                        </picture>
                     </SwiperSlide>
                 </Swiper>
 

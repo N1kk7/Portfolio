@@ -44,7 +44,12 @@ export default function WeatherApp() {
             </div>
             <div className="images">
                 <div className="bgImg">
-                    <img src="./goldBg.jpg" alt="" />
+                    {/* <img src="./goldBg.jpg" alt="" />
+                     */}
+                      <picture>
+                        <source srcSet="./goldBg-mobile.jpg" media="(max-width: 700px)" />
+                        <img src="./goldBg.jpg" alt="" />
+                    </picture>
                 </div>
                 <div className="gridWrapper">
                 <div className="grid-container">

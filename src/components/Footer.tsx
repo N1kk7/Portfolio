@@ -12,10 +12,7 @@ export default function Footer() {
             <a href="https://www.instagram.com/nickseventh/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"><img src="./inst.png" alt=""></img></a>
             <a href="https://github.com/N1kk7"><img src="./git.png" alt=""></img></a>
           </div>
-          </div>
-          
-
-
+      </div>
     </div>
   )
 }

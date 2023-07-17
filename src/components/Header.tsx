@@ -6,7 +6,7 @@ import MovieApp from './MovieApp'
 import Cocktail from './Cocktail'
 import Footer from './Footer'
 import WindowBar from './WindowBar'
-import Tech from './Tech'
+// import Tech from './Tech'
 
 export default function Header() {
 
