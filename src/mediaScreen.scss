@@ -10,7 +10,7 @@
                 .headerItem{
                     position: absolute;
                     height: inherit;
-                    top: 2cqh;
+                    top: 1cqh;
                     .headerLogo{
                         width: 50cqw;
                         h1{
@@ -46,7 +46,8 @@
                 img{
                     width: 50cqw;
                 }
-            }  
+            } 
+            
         }
     }
     .StarWars{
@@ -56,6 +57,9 @@
             }
             
         }
+        .imgBottom{
+            bottom: 2vh !important;
+        } 
     }
     .MovieApp{
         .blockWrapper{
@@ -86,14 +90,14 @@
                 border-top-left-radius: 12vw 5vw;
                 border-bottom-left-radius: 12vw 5vw;
                 height: 65vh;
-                top: 5cqh;
+                top: 8cqh;
                 .itemBtn{
                     opacity: 0.9 !important;
                     img{
-                        max-width: 12cqw !important;
+                        max-width: 12cqh !important;
                     }
                     span{
-                        font-size: 2cqw !important;
+                        font-size: 2cqh !important;
                         width: 12cqw !important;
                         letter-spacing: 1px !important;
                     }
@@ -125,6 +129,8 @@
                 font-size: 5cqw;
                 border-radius: 1cqw;
                 color: white;
+                transform: rotate(0deg);
+                transition: all ease 0.5s;
             }
         }
         
@@ -134,6 +140,13 @@
         transition: all ease 0.5s;
         right: 0cqw;
         z-index: 20;
+        .arrowBar{
+            span{
+                transform: rotate(180deg);
+                transition: all ease 0.3s;
+
+            }
+        }
     }
 }
 @media screen and (max-width: 425px) {
