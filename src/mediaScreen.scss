@@ -3,7 +3,7 @@
         z-index: 50;
         z-index: 50;
         height: 12cqh;
-        min-height: 80px;
+        min-height: 85px;
         .container{
             .headerWrapper{
                 height: 10vh;
@@ -99,6 +99,32 @@
                     }
         
                 }
+            }
+        }
+        .arrowBar{
+            display: block;
+            position: absolute;
+            font-size: 5cqw;
+            border-radius: 1cqw;
+            top: 72vh;
+            width: 6cqw;
+            max-width: 30px;
+            height: 10cqh;
+            right: 15cqw;
+            border-bottom-right-radius: 0;
+            border-top-right-radius: 0;
+            border: 1px solid teal;
+            background-color: black;
+            border-right: none;
+            span{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                height: inherit;
+                font-size: 5cqw;
+                border-radius: 1cqw;
+                color: white;
             }
         }
         

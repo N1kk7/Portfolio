@@ -8,6 +8,7 @@ export const modalSlice = createSlice({
         // modalData: "ololo",
         blockName: "",
         mobileBar: false,
+        closeScrollBar: false,
         // StarWars: false,
         // weather: false,
         // movie: false,
@@ -54,16 +55,33 @@ export const modalSlice = createSlice({
         mobileSideBar: (state, param) => {
             switch (param.payload) {
                 case "ActiveBar": 
-                    state.mobileBar = true;
+                    state.mobileBar = !state.mobileBar;
                 break;
-                case "RemoveBar": 
+                // case "RemoveBar": 
 
                 
-                    state.mobileBar = false;
-                break;
+                //     state.mobileBar = false;
+                // break;
+                // case "CloseScrollBar":
+                //     // console.log("call from slice");
+                    
+                //     // let test:any;
+
+                //     state.closeScrollBar = !state.closeScrollBar
+                //     state.mobileBar = false;
+
+                //     console.log(state.closeScrollBar);
+                    
+                //     // const test = () => {
+                //     //  setTimeout(() => {state.closeScrollBar = false}, 1000);
+
+
+                //     // }
+                //     // test();
+                // break;
 
                 
-            }
+            } 
 
         },
         // mobileBarRemove: (state) => {
