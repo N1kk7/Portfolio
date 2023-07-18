@@ -2,8 +2,8 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay } from 'swiper';
-import { modalFunc } from "../redux/modalSlice";
-import { useDispatch } from "react-redux";
+import { modalFunc, mobileSideBar } from "../redux/modalSlice";
+import { useDispatch, useSelector } from "react-redux";
 
 
 // Import Swiper styles
@@ -18,12 +18,20 @@ import React from "react";
 
 
 export default function StarWars() {
+  const barState = useSelector((state: any) => state.modal.mobileBar);
+
     SwiperCore.use([Autoplay]);
     let canvasRef:any = useRef<HTMLCanvasElement>(null);
     const dispatch = useDispatch();
     
 
+const btn = () => {
+    if (barState) {
+        dispatch(mobileSideBar("ActiveBar"));
 
+    }
+    dispatch(modalFunc("StarWars"));
+}
 // const canvasAnimation = () => {
 
     
@@ -316,7 +324,7 @@ useEffect(() => {
                         </p>
                     </div>
                     <div className="buttons">
-                        <div className="btn " role='button' onClick={() => dispatch(modalFunc("StarWars"))}>Tech</div>
+                        <div className="btn " role='button' onClick={() => btn()}>Tech</div>
 
                         <a className="btn " href="https://n1kk7.github.io/StarWars/www/">Star Wars</a>
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay } from 'swiper';
-import { modalFunc } from '../redux/modalSlice';
+import { modalFunc, mobileSideBar } from '../redux/modalSlice';
 
 
 // Import Swiper styles
@@ -9,7 +9,7 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { useDispatch} from 'react-redux';
+import { useDispatch, useSelector} from 'react-redux';
 
 
 
@@ -26,8 +26,16 @@ export default function Expedia() {
 
     // const [modal, setModal] = useState(false);
     // const modal = useSelector((state:any) => state.modal);
+    const barState = useSelector((state: any) => state.modal.mobileBar);
     const dispatch = useDispatch();
 
+
+const btn = () => {
+    if (barState) {
+        dispatch(mobileSideBar("ActiveBar"));
+    }
+    dispatch(modalFunc("expedia"))
+}
     // console.log(modal)
 
     SwiperCore.use([Autoplay]);
@@ -51,7 +59,7 @@ export default function Expedia() {
                         </p>
                     </div>
                     <div className="buttons">
-                        <div className="btn "   role='button' onClick={() => dispatch(modalFunc("expedia"))}>Tech</div>
+                        <div className="btn "   role='button' onClick={() => btn()}>Tech</div>
 
                         <a className="btn " href="https://n1kk7.github.io/Expedia/dev/">Expedia</a>
 

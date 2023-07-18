@@ -1,6 +1,6 @@
 import React from 'react'
-import { modalFunc } from '../redux/modalSlice'
-import { useDispatch } from 'react-redux'
+import { modalFunc, mobileSideBar } from '../redux/modalSlice'
+import { useDispatch, useSelector } from 'react-redux'
 
 
 
@@ -8,11 +8,19 @@ import { useDispatch } from 'react-redux'
 
 
 export default function WeatherApp() {
+    const barState = useSelector((state: any) => state.modal.mobileBar);
     const dispatch = useDispatch();
 
 
 
 
+const btn = () => {
+    if (barState) {
+        dispatch(mobileSideBar("ActiveBar"));
+
+    }
+    dispatch(modalFunc("Weather"));
+}
 
 
   return (
@@ -31,7 +39,7 @@ export default function WeatherApp() {
                         </p>
                     </div>
                     <div className="buttons">
-                        <div className="btn " role='button' onClick={() => dispatch(modalFunc("Weather"))}>Tech</div>
+                        <div className="btn " role='button' onClick={() => btn()}>Tech</div>
 
                         <a className="btn " href="https://n1kk7.github.io/weatherApp/build/">Weather</a>
 

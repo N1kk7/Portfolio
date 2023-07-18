@@ -1,8 +1,8 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay } from 'swiper';
-import { modalFunc } from '../redux/modalSlice';
-import { useDispatch } from 'react-redux';
+import { modalFunc, mobileSideBar } from '../redux/modalSlice';
+import { useDispatch, useSelector } from 'react-redux';
 
 
 // Import Swiper styles
@@ -19,9 +19,16 @@ import { EffectFade } from "swiper";
 
 
 export default function MovieApp() {
+    const barState = useSelector((state: any) => state.modal.mobileBar);
     const dispatch = useDispatch();
 
+const btn = () => {
+    if (barState) {
+        dispatch(mobileSideBar("ActiveBar"));
+    }
+    dispatch(modalFunc("Movie"));
 
+}
     SwiperCore.use([Autoplay]);
 
 
@@ -33,7 +40,11 @@ export default function MovieApp() {
         <div className="blockWrapper">
             <div className="images">
                 <div className="bgImg">
-                    <img src="./revertGoldBg.png" alt="" />
+                    {/* <img src="./revertGoldBg.png" alt="" /> */}
+                    <picture>
+                        <source srcSet="./goldBg-mobile.jpg" media="(max-width: 700px)" />
+                        <img src="./goldBg.jpg" alt="" />
+                    </picture>
                 </div>
                 <Swiper
                     autoplay={{ delay: 5000 }}
@@ -95,7 +106,7 @@ export default function MovieApp() {
                             </p>
                         </div>
                         <div className="buttons">
-                            <div className="btn "  role='button' onClick={() => dispatch(modalFunc("Movie"))}>Tech</div>
+                            <div className="btn "  role='button' onClick={() => btn()}>Tech</div>
 
                             <a className="btn " href="https://n1kk7.github.io/movieApp/build/">Movie App</a>
 

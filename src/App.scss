@@ -444,6 +444,7 @@ margin: 0 1cqw;
     // background-color: inherit;
     .techWrapper{
       width: 50vw;
+      min-width: 150px;
       height: 45vh;
       // background-color: #ffffff;
       position: relative;
@@ -525,10 +526,35 @@ margin: 0 1cqw;
         justify-content: center;
         align-items: center;
         height: 30vh;
-        img{
-          width: 5cqw;
-          margin: 2cqw;
+        .tItem{
+          background-color: black;
+          position: relative;
+          text-align: center;
+          border: 1px solid teal;
+          border-radius: 1cqw;
+          min-height: 12cqh;
+          min-width: 60px;
+          margin: 0.5cqw;
+          .techLogo{
+            img{
+              width: 5cqh;
+              margin: 1cqw auto ;
+            }
+          }
+          .techDes{
+            width: -webkit-fill-available;
+            position: absolute;
+            bottom: 0.5vh;
+            span{
+              color: white;
+              font-family: Trirong;
+              letter-spacing: 1px;
+              font-size: 1.8cqh;
+              margin: 5px;
+            }
+          }
         }
+        
       }
     }
     .techBg{

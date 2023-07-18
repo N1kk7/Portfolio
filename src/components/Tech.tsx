@@ -35,10 +35,31 @@ export default function Tech(param: any) {
                 </div>
                 <div className="techItem">
                         <div className="itemContainer">
-                            <img src="./html.png" alt="" />
-                            <img src="./css.png" alt="" />
-                            <img src="./js.svg.png" alt="" />
-           
+                            <div className="tItem">
+                                <div className="techLogo">
+                                    <img src="./html.png" alt="" />
+                                </div>
+                                <div className="techDes">
+                                    <span>HTML</span>
+                                </div>
+                            </div>
+                            <div className="tItem">
+                                <div className="techLogo">
+                                    <img src="./css.png" alt="" />
+
+                                </div>
+                                <div className="techDes">
+                                    <span>CSS</span>
+                                </div>
+                            </div>
+                            <div className="tItem">
+                                <div className="techLogo">
+                                    <img src="./js.svg.png" alt="" />
+                                </div>
+                                <div className="techDes">
+                                    <span>JS</span>
+                                </div>
+                            </div>
                         </div>
                     </div></>
                 break;
@@ -55,13 +76,48 @@ export default function Tech(param: any) {
 
                         </div>
                         <div className="techItem">
-                        <div className="itemContainer">
-                            <img src="./html.png" alt="" />
-                            <img src="./css.png" alt="" />
-                            <img src="./js.svg.png" alt="" />
-                            <img src="./jquery.png" alt="" />
-                            <img src="./restApi.png" alt="" />
-                        </div>
+                            <div className="itemContainer">
+                                <div className="tItem">
+                                    <div className="techLogo">
+                                        <img src="./html.png" alt="" />
+                                    </div>
+                                    <div className="techDes">
+                                        <span>HTML</span>
+                                    </div>
+                                </div>
+                                <div className="tItem">
+                                    <div className="techLogo">
+                                        <img src="./css.png" alt="" />
+                                    </div>
+                                    <div className="techDes">
+                                        <span>CSS</span>
+                                    </div>
+                                </div>
+                                <div className="tItem">
+                                    <div className="techLogo">
+                                        <img src="./js.svg.png" alt="" />
+                                    </div>
+                                    <div className="techDes">
+                                        <span>JS</span>
+                                    </div>
+                                </div>
+                                <div className="tItem">
+                                    <div className="techLogo">
+                                        <img src="./jquery.png" alt="" />
+                                    </div>
+                                    <div className="techDes">
+                                        <span>JQuery</span>
+                                    </div>
+                                </div>
+                                <div className="tItem">
+                                    <div className="techLogo">
+                                        <img src="./restApi.png" alt="" />
+                                    </div>
+                                    <div className="techDes">
+                                        <span>Api</span>
+                                    </div>
+                                </div>
+                            </div>
                     </div></>
                 break;
             case "Weather":
@@ -75,12 +131,40 @@ export default function Tech(param: any) {
                             </div>
                         </div>
                         <div className="techItem">
-                        <div className="itemContainer">
-                            <img src="./React.svg.png" alt="" />
-                            <img src="./sass.png" alt="" />
-                            <img src="./js.svg.png" alt="" />
-                            <img src="./restApi.png" alt="" />
-                        </div>
+                            <div className="itemContainer">
+                            <div className="tItem">
+                                    <div className="techLogo">
+                                        <img src="./React.svg.png" alt="" />
+                                    </div>
+                                    <div className="techDes">
+                                        <span>React</span>
+                                    </div>
+                                </div>
+                                <div className="tItem">
+                                    <div className="techLogo">
+                                        <img src="./sass.png" alt="" />
+                                    </div>
+                                    <div className="techDes">
+                                        <span>SASS</span>
+                                    </div>
+                                </div>
+                                <div className="tItem">
+                                    <div className="techLogo">
+                                        <img src="./js.svg.png" alt="" />
+                                    </div>
+                                    <div className="techDes">
+                                        <span>JS</span>
+                                    </div>
+                                </div>
+                                <div className="tItem">
+                                    <div className="techLogo">
+                                        <img src="./restApi.png" alt="" />
+                                    </div>
+                                    <div className="techDes">
+                                        <span>RestApi</span>
+                                    </div>
+                                </div>
+                            </div>
                     </div></>
                 break;
             case "Movie":
@@ -94,15 +178,48 @@ export default function Tech(param: any) {
                             </div>
                         </div>
                         <div className="techItem">
-                        <div className="itemContainer">
-                            <img src="./React.svg.png" alt="" />
-                            <img src="./sass.png" alt="" />
-                            <img src="./js.svg.png" alt="" />
-                            <img src="./restApi.png" alt="" />
-                            <img src="./Typescript.svg.png" alt="" />
-
-
-                        </div>
+                            <div className="itemContainer">
+                                <div className="tItem">
+                                    <div className="techLogo">
+                                        <img src="./React.svg.png" alt="" />
+                                    </div>
+                                    <div className="techDes">
+                                        <span>React</span>
+                                    </div>
+                                </div>
+                                <div className="tItem">
+                                    <div className="techLogo">
+                                        <img src="./sass.png" alt="" />
+                                    </div>
+                                    <div className="techDes">
+                                        <span>SASS</span>
+                                    </div>
+                                </div>
+                                <div className="tItem">
+                                    <div className="techLogo">
+                                        <img src="./js.svg.png" alt="" />
+                                    </div>
+                                    <div className="techDes">
+                                        <span>JS</span>
+                                    </div>
+                                </div>
+                                <div className="tItem">
+                                    <div className="techLogo">
+                                        <img src="./restApi.png" alt="" />
+                                    </div>
+                                    <div className="techDes">
+                                        <span>RestApi</span>
+                                    </div>
+                                </div>
+                                <div className="tItem">
+                                    <div className="techLogo">
+                                        <img src="./Typescript.svg.png" alt="" />
+                                    </div>
+                                    <div className="techDes">
+                                        <span>T.Script</span>
+                                    </div>
+                                </div>
+                            </div>
                     </div></>
                 break;
             case "Cocktail":
@@ -116,17 +233,56 @@ export default function Tech(param: any) {
                             </div>
                         </div>
                         <div className="techItem">
-                        <div className="itemContainer">
-                            <img src="./React.svg.png" alt="" />
-                            <img src="./sass.png" alt="" />
-                            <img src="./js.svg.png" alt="" />
-                            <img src="./restApi.png" alt="" />
-                            <img src="./Typescript.svg.png" alt="" />
-                            <img src="./redux.svg" alt="" />
-
-
-
-                        </div>
+                            <div className="itemContainer">
+                            <div className="tItem">
+                                    <div className="techLogo">
+                                        <img src="./React.svg.png" alt="" />
+                                    </div>
+                                    <div className="techDes">
+                                        <span>React</span>
+                                    </div>
+                                </div>
+                                <div className="tItem">
+                                    <div className="techLogo">
+                                        <img src="./sass.png" alt="" />
+                                    </div>
+                                    <div className="techDes">
+                                        <span>SASS</span>
+                                    </div>
+                                </div>
+                                <div className="tItem">
+                                    <div className="techLogo">
+                                        <img src="./js.svg.png" alt="" />
+                                    </div>
+                                    <div className="techDes">
+                                        <span>JS</span>
+                                    </div>
+                                </div>
+                                <div className="tItem">
+                                    <div className="techLogo">
+                                        <img src="./restApi.png" alt="" />
+                                    </div>
+                                    <div className="techDes">
+                                        <span>RestApi</span>
+                                    </div>
+                                </div>
+                                <div className="tItem">
+                                    <div className="techLogo">
+                                        <img src="./Typescript.svg.png" alt="" />
+                                    </div>
+                                    <div className="techDes">
+                                        <span>T.Script</span>
+                                    </div>
+                                </div>
+                                <div className="tItem">
+                                    <div className="techLogo">
+                                        <img src="./redux.svg" alt="" />
+                                    </div>
+                                    <div className="techDes">
+                                        <span>Redux</span>
+                                    </div>
+                                </div>
+                            </div>
                     </div></>
                 break;
 

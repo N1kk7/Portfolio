@@ -148,6 +148,7 @@
             }
         }
     }
+    
 }
 @media screen and (max-width: 425px) {
     .blockWrapper{
@@ -388,6 +389,20 @@
                 img{
                     width: 10cqw;
                     margin: 0 4cqw;
+                }
+            }
+        }
+    }
+    .tech{
+        .blockTittle{
+            h1{
+                font-size: 4cqw !important;
+            }
+        }
+        .closeButton{
+            .buttonWrapper{
+                h2{
+                    font-size: 3cqw;
                 }
             }
         }
