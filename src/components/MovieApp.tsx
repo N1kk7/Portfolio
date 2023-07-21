@@ -70,8 +70,8 @@ const btn = () => {
                         {/* <img className='coverImage' src="./movie2.png" alt=""/> */}
                         {/* <img  src="./movie2.png" alt=""/> */}
                         <picture>
-                            <source srcSet="./movie1-mobile.png" media="(max-width: 700px)" />
-                            <img src="./movie1.png" alt="" />
+                            <source srcSet="./movie2-mobile.png" media="(max-width: 700px)" />
+                            <img src="./movie2.png" alt="" />
                         </picture>
 
                     </SwiperSlide>
@@ -79,16 +79,16 @@ const btn = () => {
                         {/* <img className='coverImage' src="./movie3.png" alt="" /> */}
                         {/* <img src="./movie3.png" alt="" /> */}
                         <picture>
-                            <source srcSet="./movie1-mobile.png" media="(max-width: 700px)" />
-                            <img src="./movie1.png" alt="" />
+                            <source srcSet="./movie3-mobile.png" media="(max-width: 700px)" />
+                            <img src="./movie3.png" alt="" />
                         </picture>
 
                     </SwiperSlide>
                     <SwiperSlide>
                         {/* <img  src="./movie4.png" alt="" /> */}
                         <picture>
-                            <source srcSet="./movie1-mobile.png" media="(max-width: 700px)" />
-                            <img src="./movie1.png" alt="" />
+                            <source srcSet="./movie4-mobile.png" media="(max-width: 700px)" />
+                            <img src="./movie4.png" alt="" />
                         </picture>
                     </SwiperSlide>
                 </Swiper>

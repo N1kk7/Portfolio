@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "https://n1kk7.github.io/Portfolio/build/static/css/main.5db14ab7.css",
-    "main.js": "https://n1kk7.github.io/Portfolio/build/static/js/main.0dad7afa.js",
+    "main.css": "https://n1kk7.github.io/Portfolio/build/static/css/main.f2fa3949.css",
+    "main.js": "https://n1kk7.github.io/Portfolio/build/static/js/main.a198c1d2.js",
     "index.html": "https://n1kk7.github.io/Portfolio/build/index.html",
-    "main.5db14ab7.css.map": "https://n1kk7.github.io/Portfolio/build/static/css/main.5db14ab7.css.map",
-    "main.0dad7afa.js.map": "https://n1kk7.github.io/Portfolio/build/static/js/main.0dad7afa.js.map"
+    "main.f2fa3949.css.map": "https://n1kk7.github.io/Portfolio/build/static/css/main.f2fa3949.css.map",
+    "main.a198c1d2.js.map": "https://n1kk7.github.io/Portfolio/build/static/js/main.a198c1d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.5db14ab7.css",
-    "static/js/main.0dad7afa.js"
+    "static/css/main.f2fa3949.css",
+    "static/js/main.a198c1d2.js"
   ]
 }

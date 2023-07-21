@@ -223,6 +223,8 @@
       width: 46vw;
       img{
         height: 100vh;
+        // height: auto;
+        width: -webkit-fill-available;//////
         opacity: 0.5;
       }
     }
@@ -241,17 +243,18 @@
       }
       .swiper {
         width: 25cqw;
-        height: 60cqh;
+        height: 100cqh;   /// 65vh
         position: relative;
-        top: 50%;
-        margin-top: -150px;
+        // top: 50%;
+        // margin-top: -150px;
         .swiper-wrapper{
-          bottom: 8vh;
+          // bottom: 8vh;
         }
         .swiper-slide {
           background-position: center;
           background-size: cover;
           display: unset;
+          height: 65vh;////////
           img{
             display: block;
             width: 100%;
@@ -266,7 +269,8 @@
           }
           .imageWrapper{
             position: relative;
-            height: 65vh;
+            // height: 65vh;
+            height: 100vh;
             margin: 0 auto;
             .left-image{
               perspective-origin: left center;
@@ -297,9 +301,10 @@
         }
       }
       .imgBottom{
-        position: relative;
-        bottom: 3cqh;
+        position: absolute;
+    top: 16cqh;
       }
+      ////////
     }
     .infoBlock{
       max-width: 46cqw;
